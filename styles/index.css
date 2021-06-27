@@ -1,0 +1,25 @@
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+header .logo {
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size: 4rem;
+}
+
+header nav a {
+    color: var(--grey);
+}
+
+header nav a + a {
+    margin-left: 1rem;
+}
+
+header nav a:hover {
+    color: var(--white);
+}

@@ -1,0 +1,38 @@
+:root {
+    --red: #E50914;
+    --black: #141414;
+    --grey: #AAA;
+    --white: #FFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 0; */
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--black);
+    color: #FFF;
+    /* -webkit-font-smoothing: antialised; */
+}
+
+body, input, button {
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 1.6rem; */
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 500;
+}
+
+button {
+    cursor: pointer;
+}
