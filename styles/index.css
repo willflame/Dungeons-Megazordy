@@ -1,3 +1,4 @@
+/* Header */
 header .container {
     display: flex;
     align-items: center;
@@ -23,3 +24,29 @@ header nav a + a {
 header nav a:hover {
     color: var(--white);
 }
+
+/* Filme principal */
+.film-main {
+    font-size: 1.6rem;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/capa-house.jpg') no-repeat;
+
+    height: 40rem;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.film-main .container {}
+
+.film-main .container .title {
+    font-size: 4rem;
+}
+
+.film-main .container .description {
+    margin-bottom: 4rem;
+}
+
+.film-main .container .buttons {}
