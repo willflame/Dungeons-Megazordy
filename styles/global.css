@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, strong {
     font-weight: 500;
 }
 
-button, .buttons {
+button, .button {
     cursor: pointer;
     background-color: var(--black-gradient);
     border: none;
@@ -46,11 +46,14 @@ button, .buttons {
     transition: .3s ease all;
 }
 
-button i, .buttons i {
+button i, .button i {
     margin-right: .8rem;
 }
 
-button:hover, .buttons:hover {
+button:hover, .button:hover {
     background-color: var(--white);
     color: var(--black);
+}
+
+.container {
 }
