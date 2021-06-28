@@ -43,10 +43,17 @@ header nav a:hover {
 
 .film-main .container .title {
     font-size: 4rem;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-top: 15%;
 }
 
 .film-main .container .description {
+    margin-top: 1rem;
     margin-bottom: 4rem;
 }
 
 .film-main .container .buttons {}
+
+.film-main .container .buttons button + button {
+    margin-left: 1.5rem;
+}

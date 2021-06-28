@@ -3,6 +3,8 @@
     --black: #141414;
     --grey: #AAA;
     --white: #FFF;
+
+    --black-gradient: rgba(0, 0, 0, .50);
 }
 
 *{
@@ -33,6 +35,22 @@ h1, h2, h3, h4, h5, h6, strong {
     font-weight: 500;
 }
 
-button {
+button, .buttons {
     cursor: pointer;
+    background-color: var(--black-gradient);
+    border: none;
+    color: var(--white);
+    font-size: 1.5rem;
+
+    padding: 1.5rem 3rem;
+    transition: .3s ease all;
+}
+
+button i, .buttons i {
+    margin-right: .8rem;
+}
+
+button:hover, .buttons:hover {
+    background-color: var(--white);
+    color: var(--black);
 }
