@@ -21,6 +21,7 @@ html {
 }
 
 body {
+    font-family: 'Arial', Times, serif;
     background: var(--black);
     color: var(--white);
     /* -webkit-font-smoothing: antialised; */

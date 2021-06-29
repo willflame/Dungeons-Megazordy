@@ -15,6 +15,7 @@ header .logo {
 
 header nav a {
     color: var(--grey);
+    font-weight: 600;
 }
 
 header nav a + a {
@@ -37,11 +38,12 @@ header nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 1rem;
 }
 
 .film-main .container {
     padding: 2rem;
-    width: max(30rem, 70%);
+    width: max(31rem, 50%);
 }
 
 .film-main .container .title {
@@ -55,7 +57,10 @@ header nav a:hover {
     margin-bottom: 4rem;
 }
 
-.film-main .container .buttons {}
+.film-main .container .buttons {
+    display: flex;
+    flex-direction: row;
+}
 
 .film-main .container .buttons button + button {
     margin-left: 1.5rem;
