@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix CLone</title>
+    <title>D&D - Megazordy</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles/global.css">
@@ -20,26 +20,39 @@
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">Netflix</h2>
-            <nav>
-                <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
-            </nav>
+            <div class="left">
+                <h2 class="logo">
+                    <img src="img/logo.png" alt="Logo Dungeons & Dragons">
+                </h2>
+                <nav>
+                    <a href="#classes">Classes</a>
+                    <a href="#races">Races</a>
+                    <a href="#spells">Spells</a>
+                    <a href="#monters">Monsters</a>
+                </nav>
+            </div>
+            <div class="right">
+                <a href="#">
+                    <i class="fas fa-magnifying-glass"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-bell"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                </a>
+            </div>
         </div>
     </header>
     <main>
         <div class="film-main">
             <dv class="container">
-                <h3 class="title">House Of Cards</h3>
-                <p class="description">
-                    Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington.
-                </p>
+                <h3 class="title"></h3>
+                <p class="description"></p>
                 <div class="buttons">
-                    <button role="button" class="button">
+                    <button role="button" class="button play">
                         <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
+                        TRAILER
                     </button>
                     <button role="button" class="button">
                         <i class="fas fa-info-circle"></i>
@@ -50,37 +63,94 @@
         </div>
     </main>
 
+    <!-- Classes -->
     <dvi class="carousel-films">
+        <h2 id="classes">Classes</h2>
         <div class="owl-carousel owl-theme">
             <div class="item">
-                <img class="box-film" src="img/mini1.jpg" alt="Imagem 01">
+                <img class="box-film" src="img/classes/artifice.jpeg" alt="Artifice">
+                <h3>Artifice</h3>
             </div>
             <div class="item">
-                <img class="box-film" src="img/mini2.jpg" alt="Imagem 02">
+                <img class="box-film" src="img/classes/barbarian.jpg" alt="Barbarian">
+                <h3>Barbarian</h3>
             </div>
             <div class="item">
-                <img class="box-film" src="img/mini3.jpg" alt="Imagem 03">
+                <img class="box-film" src="img/classes/bard.jpg" alt="Bard">
+                <h3>Bard</h3>
             </div>
             <div class="item">
-                <img class="box-film" src="img/mini4.jpg" alt="Imagem 04">
+                <img class="box-film" src="img/classes/cleric.jpg" alt="Cleric">
+                <h3>Cleric</h3>
             </div>
             <div class="item">
-                <img class="box-film" src="img/mini5.jpg" alt="Imagem 05">
+                <img class="box-film" src="img/classes/druid.jpg" alt="Druid">
+                <h3>Druid</h3>
             </div>
             <div class="item">
-                <img class="box-film" src="img/mini6.jpg" alt="Imagem 06">
+                <img class="box-film" src="img/classes/fighter.png" alt="Fighter">
+                <h3>Fighter</h3>
             </div>
             <div class="item">
-                <img class="box-film" src="img/mini7.jpg" alt="Imagem 07">
+                <img class="box-film" src="img/classes/monk.jpg" alt="Monk">
+                <h3>Monk</h3>
             </div>
             <div class="item">
-                <img class="box-film" src="img/mini8.jpg" alt="Imagem 08">
+                <img class="box-film" src="img/classes/paladin.jpg" alt="Paladin">
+                <h3>Paladin</h3>
             </div>
             <div class="item">
-                <img class="box-film" src="img/mini9.jpg" alt="Imagem 09">
+                <img class="box-film" src="img/classes/ranger.jpg" alt="Ranger">
+                <h3>Ranger</h3>
             </div>
             <div class="item">
-                <img class="box-film" src="img/mini10.jpg" alt="Imagem 010">
+                <img class="box-film" src="img/classes/rogue.jpg" alt="Rogue">
+                <h3>Rogue</h3>
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/classes/soccer.jpg" alt="Soccer">
+                <h3>Soccer</h3>
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/classes/warlock.jpg" alt="Warlock">
+                <h3>Warlock</h3>
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/classes/wizard.png" alt="Wizard">
+                <h3>Wizard</h3>
+            </div>
+        </div>
+    </dvi>
+
+    <!-- Races -->
+    <dvi class="carousel-films">
+        <h2 id="races">Races</h2>
+        <div class="owl-carousel races owl-theme">
+            <div class="item">
+                <img class="box-film" src="img/races/dragonborn.jpg" alt="Dragonborn">
+                <h3>Dragonborn</h3>
+            </div>
+        </div>
+    </dvi>
+
+    <!-- Spells -->
+    <dvi class="carousel-films">
+        <h2 id="spells">Spells</h2>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-film" src="img/classes/artifice.jpeg" alt="Artifice">
+                <h3>Artifice</h3>
+            </div>
+        </div>
+    </dvi>
+
+    <!-- Monsters -->
+    <dvi class="carousel-films">
+        <h2 id="monters">Monsters</h2>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-film" src="img/classes/artifice.jpeg" alt="Artifice">
+                <h3>Artifice</h3>
             </div>
         </div>
     </dvi>

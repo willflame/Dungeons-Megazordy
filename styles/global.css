@@ -1,10 +1,12 @@
 :root {
     --red: #E50914;
     --black: #141414;
-    --grey: #AAA;
     --white: #FFF;
+    --grey: #AAA;
+    --grey-dark: #1f1f1f;
 
     --black-gradient: rgba(0, 0, 0, .50);
+    --grey-gradient: rgba(109,109,110,0.7);
 }
 
 *{
@@ -22,13 +24,13 @@ html {
 
 body {
     font-family: 'Arial', Times, serif;
-    background: var(--black);
+    background: var(--grey-dark);
     color: var(--white);
     /* -webkit-font-smoothing: antialised; */
 }
 
 body, input, button {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial Black', Arial, serif;
     /* font-size: 1.6rem; */
 }
 
@@ -38,23 +40,20 @@ h1, h2, h3, h4, h5, h6, strong {
 
 button, .button {
     cursor: pointer;
-    background-color: var(--black-gradient);
+    background-color: var(--white);
     border: none;
-    color: var(--white);
+    color: var(--black);
     font-size: 1.5rem;
+    border-radius: 0.8rem;
 
     padding: 1.5rem 3rem;
     transition: .3s ease all;
 }
 
 button i, .button i {
-    margin-right: .8rem;
+    margin-right: .5rem;
 }
 
 button:hover, .button:hover {
-    background-color: var(--white);
-    color: var(--black);
-}
-
-.container {
+    opacity: 0.8;
 }

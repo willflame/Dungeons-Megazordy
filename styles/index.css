@@ -1,37 +1,83 @@
 /* Header */
+body > header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7rem;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    padding: 0 1rem;
+}
 header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 120rem;
     margin: 0 auto;
+    background-color: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
 }
 
-header .logo {
+header .container .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container .left .logo {
     color: var(--red);
     font-family: 'Arial Black', Times;
     font-size: 4rem;
 }
 
-header nav a {
-    color: var(--grey);
-    font-weight: 600;
+header .container .left nav {
+ margin: 0 2rem;
 }
 
-header nav a + a {
+header .container .left nav a {
+    color: var(--red);
+    font-weight: 900;
+    font-size: clamp(16px, 2vw, 1.8rem);
+    text-shadow: 1px 1px var(--black);
+}
+
+header .container .left nav a:hover {
+    color: var(--grey);
+}
+
+header .container .left nav a + a {
     margin-left: 1rem;
 }
 
-header nav a:hover {
+header .container .left nav a:hover {
     color: var(--white);
+}
+
+header .container .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container .right a {
+    margin: 0 1rem;
+    color: var(--white);
+}
+
+header .container .right a:hover {
+    color: var(--grey);
+}
+
+header .container .right a i {
+    font-size: 2.4rem;
 }
 
 /* Filme principal */
 .film-main {
     font-size: 1.6rem;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/capa-house.jpg') no-repeat;
+    background: url('/img/dark-alliance.jpg') no-repeat;
+;
 
-    height: 40rem;
+    height: 90vh;
     background-size: cover;
 
     display: flex;
@@ -60,14 +106,49 @@ header nav a:hover {
 .film-main .container .buttons {
     display: flex;
     flex-direction: row;
+    margin-top: 60vh;
 }
 
 .film-main .container .buttons button + button {
     margin-left: 1.5rem;
 }
 
-.box-film {
-    height: 100%;
+.film-main .container .buttons button.play {
+    background-color: var(--red);
+    color: var(--black);
+}
+
+/* Filmes */
+
+.owl-carousel.owl-theme{
+    padding: 0 1.6rem;
+}
+.carousel-films h2 {
+    margin: 1rem;
+    margin-left: 1.6rem;
+    font-size: clamp(16px, 2vw, 1.8rem);
+}
+
+/* container image */
+.item {
+    height: 40rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+.item .box-film {
     height: 100%;
     display: block;
+    object-fit: cover;
+    display: block;
+}
+
+.item h3 {
+    font-size: 2.8rem;
+    margin-top: -3.8rem;
+    display: flex;
+    color: var(--red);
+    width: 90%;
+    padding: 0 1rem;
+    overflow: hidden;
+    text-shadow: 2px 2px var(--grey);
 }
