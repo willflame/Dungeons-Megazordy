@@ -1,0 +1,29 @@
+@media screen and (max-width: 610px) {
+    header .container {
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+
+    header .container .left {
+        flex-direction: column;
+    }
+
+    header .container .right {
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    .film-main {
+        height: 56rem;
+    }
+
+    .film-main .container .buttons {
+        flex-direction: column;
+    }
+
+    .film-main .container .buttons .button {
+        margin-top: .5rem;
+        margin-left: .0rem;
+        width: 100%;
+    }
+}

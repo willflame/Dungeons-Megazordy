@@ -1,0 +1,58 @@
+:root {
+    --red: #E50914;
+    --black: #141414;
+    --grey: #AAA;
+    --white: #FFF;
+
+    --black-gradient: rgba(0, 0, 0, .50);
+    --grey-gradient: rgba(109,109,110,0.7);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 0; */
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Arial', Times, serif;
+    background: var(--black);
+    color: var(--white);
+    /* -webkit-font-smoothing: antialised; */
+}
+
+body, input, button {
+    font-family: 'Arial Black', Arial, serif;
+    /* font-size: 1.6rem; */
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 500;
+}
+
+button, .button {
+    cursor: pointer;
+    background-color: var(--grey-gradient);
+    border: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+
+    padding: 1.5rem 3rem;
+    transition: .3s ease all;
+}
+
+button i, .button i {
+    margin-right: .5rem;
+}
+
+button:hover, .button:hover {
+    opacity: 0.8;
+}

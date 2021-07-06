@@ -1,0 +1,127 @@
+/* Header */
+body > header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7rem;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    padding: 0 1rem;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+}
+
+header .container .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container .left .logo {
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size: 4rem;
+}
+
+header .container .left nav {
+ margin: 0 2rem;
+}
+
+header .container .left nav a {
+    color: var(--white);
+    font-weight: 600;
+    font-size: clamp(14px, 2vw, 1.6rem);
+}
+
+header .container .left nav a:hover {
+    color: var(--grey);
+}
+
+header .container .left nav a + a {
+    margin-left: 1rem;
+}
+
+header .container .left nav a:hover {
+    color: var(--white);
+}
+
+header .container .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container .right a {
+    margin: 0 1rem;
+    color: var(--white);
+}
+
+header .container .right a:hover {
+    color: var(--grey);
+}
+
+header .container .right a i {
+    font-size: 2.4rem;
+}
+
+/* Filme principal */
+.film-main {
+    font-size: 1.6rem;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/capa-house.jpg') no-repeat;
+
+    height: 40rem;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.film-main .container {
+    padding: 2rem;
+    width: max(31rem, 50%);
+}
+
+.film-main .container .title {
+    font-size: 4rem;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-top: 10%;
+}
+
+.film-main .container .description {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.film-main .container .buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.film-main .container .buttons button + button {
+    margin-left: 1.5rem;
+}
+
+.film-main .container .buttons button.play {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+/* Filmes */
+.carousel-films h2 {
+    margin: 1rem;
+}
+
+.box-film {
+    height: 100%;
+    height: 100%;
+    display: block;
+}
