@@ -13,6 +13,7 @@ header .container {
     align-items: center;
     justify-content: space-between;
     max-width: 120rem;
+    padding: 1rem 0;
     margin: 0 auto;
     background-color: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
 }
@@ -26,7 +27,13 @@ header .container .left {
 header .container .left .logo {
     color: var(--red);
     font-family: 'Arial Black', Times;
-    font-size: 4rem;
+    font-size: 0;
+    line-height: 0;
+    width: 26rem;
+}
+
+header .container .left .logo img {
+    width: 100%;
 }
 
 header .container .left nav {
