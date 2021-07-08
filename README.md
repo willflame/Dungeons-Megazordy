@@ -34,7 +34,6 @@ Plugins e Libs terceiras
 
 - <a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blanc">Owl Carousel 2</a>
 - <a href="https://fontawesome.com/" target="_blanc">Font Awesome</a>
-- <a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blanc">Owl Carousel 2</a>
 
 
 ## 💻 Projeto
