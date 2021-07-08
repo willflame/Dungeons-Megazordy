@@ -128,8 +128,9 @@ header .container .right a i {
 /* Filmes */
 
 .owl-carousel.owl-theme{
-    padding: 0 1.6rem;
+    
 }
+
 .carousel-films h2 {
     margin: 1rem;
     margin-left: 1.6rem;
